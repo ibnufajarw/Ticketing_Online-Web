@@ -1,0 +1,118 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    position: absolute !important;
+    width: 100%;
+    z-index: 1;
+}
+
+#hero {
+    /* background-image: url("../img/hero.jpg"); */
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#hero::after {
+    /* content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: block; */
+}
+
+#hero .text-hero {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 40%;
+    text-align: center;
+}
+
+.search-bar {
+    margin-top: -80px;
+    z-index: 1;
+    position: relative;
+}
+
+.search-bar .wrap-search-form {
+    padding: 60px 50px;
+}
+
+#kegiatan-kampus .card {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#kegiatan-kampus .card::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    border-radius: 0.375rem;
+}
+
+#kegiatan-kampus .card .card-body h5 {
+    margin-top: 200px;
+}
+
+#kegiatan-kampus .card .card-body h5, #kegiatan-kampus .card .card-body p, #kegiatan-kampus .card .card-body a {
+    z-index: 1;
+    position: relative;
+}
+
+footer, .bg-dark {
+    background-color: #212529 !important;
+}
+
+.text-title {
+    font-family: 'Audiowide', cursive;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-60 {
+    font-size: 60px;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: #464F9E !important;
+    border-color: #464F9E !important;
+}
+
+.btn-outline-primary {
+    background-color: white !important;
+    border-color: #464F9E !important;
+    color: #464F9E !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #464F9E !important;
+    color: white !important;
+}
+
+.text-primary {
+    color: #464F9E !important;
+}
+
+.footer-fixed {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
